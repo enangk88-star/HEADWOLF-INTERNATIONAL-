@@ -1,0 +1,286 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headwolf International | Official Platform & Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            800: '#1b365d',
+                            900: '#0f223d',
+                            950: '#0a1628',
+                        },
+                        gold: {
+                            400: '#f5c06b',
+                            500: '#f0ad4e',
+                            600: '#d99132',
+                        },
+                        brandOrange: '#ff7f00',
+                    },
+                    fontFamily: {
+                        cinzel: ['Cinzel', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .bg-grid-pattern {
+            background-image: radial-gradient(rgba(240, 173, 78, 0.15) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-gold-500 selection:text-navy-900">
+
+    <!-- Sticky Header Navigation -->
+    <header class="sticky top-0 z-50 bg-navy-900/95 backdrop-blur-md border-b-2 border-gold-500 shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Official Brand Logo & Name -->
+            <a href="#" class="flex items-center gap-3 group">
+                <img src="1793019913536.jpg" alt="Headwolf International Official Crest" class="h-14 w-auto rounded-full border-2 border-gold-500/80 shadow-md transform group-hover:scale-105 transition-transform duration-300">
+                <div>
+                    <h1 class="font-cinzel font-black text-xl sm:text-2xl text-white tracking-wider leading-none">HEADWOLF</h1>
+                    <p class="font-cinzel text-xs text-gold-400 font-bold tracking-widest mt-1">INTERNATIONAL</p>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center gap-8 font-semibold text-sm tracking-wide">
+                <a href="#hero" class="text-slate-200 hover:text-gold-400 transition-colors">HOME</a>
+                <a href="#about" class="text-slate-200 hover:text-gold-400 transition-colors">ABOUT</a>
+                <a href="#leadership" class="text-slate-200 hover:text-gold-400 transition-colors">LEADERSHIP</a>
+                <a href="#modules" class="text-slate-200 hover:text-gold-400 transition-colors">MODULES</a>
+                <a href="#id-badge" class="px-4 py-2 bg-gradient-to-r from-gold-500 to-gold-600 text-navy-950 font-bold rounded-lg shadow-md hover:from-gold-400 hover:to-gold-500 transition-all">CADET PORTAL</a>
+            </nav>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button id="mobile-menu-btn" class="md:hidden text-gold-400 hover:text-white p-2 focus:outline-none" aria-label="Toggle Menu">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-navy-950 border-b border-gold-500/30 px-4 pt-2 pb-6 space-y-3">
+            <a href="#hero" class="block py-2 text-slate-200 hover:text-gold-400 font-medium">HOME</a>
+            <a href="#about" class="block py-2 text-slate-200 hover:text-gold-400 font-medium">ABOUT</a>
+            <a href="#leadership" class="block py-2 text-slate-200 hover:text-gold-400 font-medium">LEADERSHIP</a>
+            <a href="#modules" class="block py-2 text-slate-200 hover:text-gold-400 font-medium">MODULES</a>
+            <a href="#id-badge" class="block py-2.5 text-center bg-gold-500 text-navy-950 font-bold rounded-md">CADET PORTAL</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section featuring Campus & Official Flag Banner -->
+        <section id="hero" class="relative bg-navy-950 overflow-hidden border-b border-navy-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    
+                    <!-- Left Hero Content -->
+                    <div class="lg:col-span-6 space-y-6 text-center lg:text-left">
+                        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-navy-800/80 border border-gold-500/40 text-gold-400 text-xs font-semibold tracking-wider uppercase">
+                            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                            Official Academy & Command Portal
+                        </div>
+        <!-- Sticky Header Navigation -->
+        <header class="sticky top-0 z-50 bg-navy-900/95 backdrop-blur-md border-b-2 border-gold-500 shadow-xl">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+                <!-- Official Brand Logo & Name -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <img src="https://placehold.co/100x100/1b365d/f0ad4e?text=HW" alt="Headwolf International Crest" class="h-12 w-12 rounded-full border-2 border-gold-500 shadow-md transform group-hover:scale-105 transition-transform duration-300 object-cover">
+                    <div>
+                        <h1 class="font-cinzel font-black text-xl sm:text-2xl text-white tracking-wider leading-none">HEADWOLF</h1>
+                        <p class="font-cinzel text-xs text-gold-400 font-bold tracking-widest mt-1">INTERNATIONAL</p>
+                    </div>
+                </a>
+                            <a href="#leadership" class="px-6 py-3.5 bg-navy-800 border border-gold-500/50 text-gold-400 hover:bg-navy-800/80 font-bold rounded-xl transition-all font-cinzel tracking-wider text-sm">
+                                COMMAND STRUCTURE
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right Hero Image Showcase (Official Academy Flag) -->
+                    <div class="lg:col-span-6">
+                        <div class="relative mx-auto max-w-lg lg:max-w-none group">
+                            <div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-gold-500 to-brandOrange opacity-30 blur-xl group-hover:opacity-50 transition duration-500"></div>
+                            <div class="relative rounded-2xl overflow-hidden border-2 border-gold-500/60 shadow-2xl bg-navy-900">
+                                <img src="https://placehold.co/800x450/1b365d/f0ad4e?text=Headwolf+Academy+Flag" alt="Headwolf International Flag flying at Academy Campus" class="w-full h-auto object-cover transform group-hover:scale-102 transition duration-500 min-h-[220px]">
+                                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-navy-950 via-navy-950/80 to-transparent p-4 sm:p-6 text-center">
+                                    <p class="font-cinzel text-gold-400 font-bold text-sm sm:text-base uppercase tracking-widest">Headwolf Campus & Colors</p>
+                                    <p class="text-slate-300 text-xs mt-1">Horizontal Tricolor: Deep Blue, White, and Vibrant Orange with Official Crest</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Institutional Overview Section -->
+        <section id="about" class="py-16 bg-navy-900 bg-grid-pattern relative">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto space-y-4">
+                    <img src="https://placehold.co/100x100/1b365d/f0ad4e?text=HW" alt="Official Seal" class="h-16 w-16 mx-auto rounded-full border-2 border-gold-500 p-1 shadow-lg object-cover">
+                    <h2 class="font-cinzel text-3xl font-bold text-white">INSTITUTIONAL CORE VALUES</h2>
+                    <div class="w-24 h-1 bg-gradient-to-r from-gold-500 to-brandOrange mx-auto rounded-full"></div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                    <div class="bg-navy-950/80 p-8 rounded-2xl border border-navy-800 hover:border-gold-500/50 transition-all text-center space-y-3">
+                        <div class="w-12 h-12 mx-auto rounded-xl bg-gold-500/10 flex items-center justify-center text-gold-400 font-bold text-2xl font-cinzel">1</div>
+                        <h3 class="font-cinzel text-xl font-bold text-gold-400">UNITY</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">Fostering solidarity across all ranks, branches, and community initiatives to build a resilient, connected leadership body.</p>
+                    </div>
+
+                    <div class="bg-navy-950/80 p-8 rounded-2xl border border-navy-800 hover:border-gold-500/50 transition-all text-center space-y-3">
+                        <div class="w-12 h-12 mx-auto rounded-xl bg-gold-500/10 flex items-center justify-center text-gold-400 font-bold text-2xl font-cinzel">2</div>
+                        <h3 class="font-cinzel text-xl font-bold text-gold-400">SERVICE</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">Dedicated to selfless contribution, discipline, academic excellence, and societal development at all levels.</p>
+                    </div>
+
+                    <div class="bg-navy-950/80 p-8 rounded-2xl border border-navy-800 hover:border-gold-500/50 transition-all text-center space-y-3">
+                        <div class="w-12 h-12 mx-auto rounded-xl bg-gold-500/10 flex items-center justify-center text-gold-400 font-bold text-2xl font-cinzel">3</div>
+                        <h3 class="font-cinzel text-xl font-bold text-gold-400">LOVE</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">Promoting compassion, mutual respect, and moral integrity as the foundational pillars of our command ethos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Command Leadership Section -->
+        <section id="leadership" class="py-16 bg-navy-950 border-t border-navy-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
+                    <p class="text-gold-400 font-cinzel font-bold text-xs uppercase tracking-widest">Executive Hierarchy</p>
+                    <h2 class="font-cinzel text-3xl sm:text-4xl font-extrabold text-white">COMMAND LEADERSHIP</h2>
+                    <div class="w-20 h-1 bg-gold-500 mx-auto rounded-full"></div>
+                </div>
+
+                <!-- Commandant Featured Card -->
+                <div class="max-w-4xl mx-auto bg-navy-900 rounded-3xl overflow-hidden border-2 border-gold-500 shadow-2xl mb-12">
+                    <div class="grid grid-cols-1 md:grid-cols-12 items-center">
+                        <div class="md:col-span-6 p-4 sm:p-6 bg-navy-950 flex justify-center">
+                            <div class="relative group max-w-xs sm:max-w-sm">
+                                <img src="https://placehold.co/400x550/1b365d/ffffff?text=Commandant+DCP+Shay+Backwoods" alt="Official Framed Portrait of Commandant DCP Shay Backwoods" class="w-full h-auto rounded-xl border border-gold-500/50 shadow-lg object-cover">
+                            </div>
+                        </div>
+                        <div class="md:col-span-6 p-6 sm:p-8 space-y-4">
+                            <span class="px-3 py-1 rounded-full bg-gold-500/20 text-gold-400 text-xs font-bold uppercase tracking-wider">FOUNDER & COMMANDANT</span>
+                            <h3 class="font-cinzel text-2xl sm:text-3xl font-black text-white">DCP SHAY BACKWOODS</h3>
+                            <p class="text-slate-300 text-sm leading-relaxed">
+                                Directing the strategic vision, military discipline, and educational programs of Headwolf International. 
+                            </p>
+                            <div class="pt-2 border-t border-navy-800 grid grid-cols-2 gap-4 text-xs">
+                                <div>
+                                    <span class="text-slate-400 block">Rank / Title:</span>
+                                    <span class="text-gold-400 font-semibold">Commandant</span>
+                                </div>
+                                <div>
+                                    <span class="text-slate-400 block">Affiliation:</span>
+                                    <span class="text-slate-200 font-semibold">Headwolf International</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Auxiliary Leadership Roster -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-navy-900 p-6 rounded-2xl border border-navy-800 hover:border-gold-500/40 transition-all">
+                        <h4 class="font-cinzel font-bold text-lg text-white">Deputy Director General</h4>
+                        <p class="text-gold-400 text-xs font-semibold mt-0.5">Strategic & Operational Planning</p>
+                        <p class="text-slate-400 text-xs mt-3">Oversees inter-departmental communications, operational logistics, and command directives.</p>
+                    </div>
+
+                    <div class="bg-navy-900 p-6 rounded-2xl border border-navy-800 hover:border-gold-500/40 transition-all">
+                        <h4 class="font-cinzel font-bold text-lg text-white">Curriculum Lead Coordinator</h4>
+                        <p class="text-gold-400 text-xs font-semibold mt-0.5">Academic & Cadet Training</p>
+                        <p class="text-slate-400 text-xs mt-3">Manages leadership training modules, educational resources, and physical discipline standards.</p>
+                    </div>
+
+                    <div class="bg-navy-900 p-6 rounded-2xl border border-navy-800 hover:border-gold-500/40 transition-all">
+                        <h4 class="font-cinzel font-bold text-lg text-white">Golden Hearts Coordinator</h4>
+                        <p class="text-gold-400 text-xs font-semibold mt-0.5">Community Outreach & Welfare</p>
+                        <p class="text-slate-400 text-xs mt-3">Directs civic engagements, charitable missions, and cadet welfare initiatives.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Pre-Recorded Academy Modules -->
+        <section id="modules" class="py-16 bg-navy-900 bg-grid-pattern border-t border-navy-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
+                    <p class="text-gold-400 font-cinzel font-bold text-xs uppercase tracking-widest">Training Syllabus</p>
+                    <h2 class="font-cinzel text-3xl font-bold text-white">ACADEMY LESSON MODULES</h2>
+                    <div class="w-20 h-1 bg-gold-500 mx-auto rounded-full"></div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Module 1 -->
+                    <div class="bg-navy-950 rounded-2xl overflow-hidden border border-navy-800 flex flex-col justify-between">
+                        <div class="p-6 space-y-3">
+                            <span class="text-xs font-bold text-brandOrange tracking-widest uppercase">MODULE 01</span>
+                            <h3 class="font-cinzel font-bold text-lg text-white">Command Ethics & Protocol</h3>
+                            <p class="text-slate-400 text-xs leading-relaxed">Introduction to institutional discipline, honor codes, and structural chain of command.</p>
+                        </div>
+                        <div class="p-6 pt-0">
+                            <button onclick="alert('Accessing Module 01 Syllabus content...')" class="w-full py-2.5 bg-navy-800 hover:bg-navy-700 text-gold-400 font-semibold text-xs rounded-xl border border-gold-500/30 transition-colors">
+                                START MODULE 01
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Module 2 -->
+                    <div class="bg-navy-950 rounded-2xl overflow-hidden border border-navy-800 flex flex-col justify-between">
+                        <div class="p-6 space-y-3">
+                            <span class="text-xs font-bold text-brandOrange tracking-widest uppercase">MODULE 02</span>
+                            <h3 class="font-cinzel font-bold text-lg text-white">Civic Engagement & Duty</h3>
+                            <p class="text-slate-400 text-xs leading-relaxed">Community development strategy, youth leadership, and civic responsibility standards.</p>
+                        </div>
+                        <div class="p-6 pt-0">
+                            <button onclick="alert('Accessing Module 02 Syllabus content...')" class="w-full py-2.5 bg-navy-800 hover:bg-navy-700 text-gold-400 font-semibold text-xs rounded-xl border border-gold-500/30 transition-colors">
+                                START MODULE 02
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Module 3 -->
+                    <div class="bg-navy-950 rounded-2xl overflow-hidden border border-navy-800 flex flex-col justify-between">
+                        <div class="p-6 space-y-3">
+                            <span class="text-xs font-bold text-brandOrange tracking-widest uppercase">MODULE 03</span>
+                            <h3 class="font-cinzel font-bold text-lg text-white">Strategic Administration</h3>
+                            <p class="text-slate-400 text-xs leading-relaxed">Organization management, digital credentials, and operational security guidelines.</p>
+                        </div>
+                        <div class="p-6 pt-0">
+                            <button onclick="alert('Accessing Module 03 Syllabus content...')" class="w-full py-2.5 bg-navy-800 hover:bg-navy-700 text-gold-400 font-semibold text-xs rounded-xl border border-gold-500/30 transition-colors">
+                                START MODULE 03
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Digital Cadet ID Badge Generator -->
+        <section id="id-badge" class="py-16 bg-navy-950 border-t border-navy-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
+                    <p class="text-gold-400 font-cinzel font-bold text-xs uppercase tracking-widest">Verification Portal</p>
+                    <h2 class="font-cinzel text-3xl sm:text-4xl font-black text-white">CADET ID GENERATOR</h2>
+                    <p class="text-slate-400 text
